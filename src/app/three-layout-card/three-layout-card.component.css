@@ -1,0 +1,46 @@
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    /* flex-direction: column; */
+}
+.services-wrap {
+    padding: 80px 0px; 
+    background-color: #f8f9fa;
+}
+.heading-main {
+    font-weight: 400;
+}
+.services-wrap .section-header .heading-summary {
+    max-width: 600px; 
+}
+.services-wrap .service-wrap .card .card-header {
+    border-color: transparent;
+    height: 170px; 
+}
+.services-wrap .service-wrap .card .card-header .img-responsive {
+    /* object-fit: cover; */
+    height: 100%;
+    width: 100%; 
+}
+.services-wrap .service-wrap .card .card-footer {
+    background: transparent; 
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 1px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+    border: 0;
+    transition: all .15s ease-in;
+}
+.card:hover {
+    box-shadow: 0 10px 16px rgb(0 0 0 / 20%);
+}
+.card-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-body {
+    padding: 1.5rem;
+}
