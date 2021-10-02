@@ -5,6 +5,7 @@
 .row.display-flex > [class*='col-'] {
     display: flex;
 }
+
 .services-wrap {
     padding: 80px 0px; 
     background-color: #f8f9fa;
