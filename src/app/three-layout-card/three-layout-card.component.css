@@ -4,7 +4,6 @@
 }
 .row.display-flex > [class*='col-'] {
     display: flex;
-    /* flex-direction: column; */
 }
 .services-wrap {
     padding: 80px 0px; 
@@ -21,7 +20,7 @@
     height: 170px; 
 }
 .services-wrap .service-wrap .card .card-header .img-responsive {
-    /* object-fit: cover; */
+    /* +-object-fit: cover; */
     height: 100%;
     width: 100%; 
 }
